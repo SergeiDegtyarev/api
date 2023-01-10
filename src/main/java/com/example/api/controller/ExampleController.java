@@ -20,8 +20,8 @@ public class ExampleController {
     @ApiResponse(code = 200,message = "Успешно")
     @GetMapping
     public ResponseEntity <String> getText (){
-        log.info("Охуенно");
-        return  new ResponseEntity<>("Pizda", HttpStatus.OK);
+        log.info("33");
+        return  new ResponseEntity<>("33", HttpStatus.OK);
     }
 
 }
